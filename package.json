@@ -1,0 +1,19 @@
+{
+  "name": "tauri-plutojl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "pluto": "julia -e 'using Pluto; Pluto.run(; launch_browser=false, port=1234, require_secret_for_access=false)'",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
+    "vite": "^4.0.0",
+    "typescript": "^4.8.2"
+  }
+}
